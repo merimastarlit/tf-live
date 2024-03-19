@@ -12,15 +12,15 @@ provider "aws" {
   region = "us-east-2"
 }
 
-terraform {
-  cloud {
-    organization = "meerim_omurbek"
+# terraform {
+#   cloud {
+#     organization = "meerim_omurbek"
 
-    workspaces {
-      name = "First_project"
-    }
-  }
-}
+#     workspaces {
+#       name = "First_project"
+#     }
+#   }
+# }
 
 
 resource "aws_ecr_repository" "ecr_meerim" {
