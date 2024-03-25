@@ -1,40 +1,40 @@
 variable "project_name" {
-  type = string
+  type    = string
   default = "my-project-417822"
 }
 
 
 variable "service_account_id" {
-  type = string
+  type    = string
   default = "gke-cluster"
 }
 
 variable "service_account_display_name" {
-  type = string
+  type    = string
   default = "Service Account GKE"
 }
 
 variable "cluster_name" {
-  type = string
+  type    = string
   default = "tf-gke-cluster"
 }
 
 variable "region" {
-  type = string
+  type    = string
   default = "us-central1"
 }
 
 variable "zone" {
-  type = string
+  type    = string
   default = "us-central1-c"
 }
 
 variable "node_count" {
-  type = number
+  type    = number
   default = 3
 }
 
 variable "disk_size_gb" {
-  type = number
+  type    = number
   default = 20
 }
