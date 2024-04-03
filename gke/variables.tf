@@ -38,3 +38,8 @@ variable "disk_size_gb" {
   type    = number
   default = 20
 }
+
+variable "bucket-name" {
+  type = string
+  default = "bucket-tfstatefiles0327"
+}
